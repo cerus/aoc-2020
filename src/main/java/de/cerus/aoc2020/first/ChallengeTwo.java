@@ -12,7 +12,6 @@ public class ChallengeTwo implements Challenge {
     public void solve(final String input) {
         final List<Integer> ints = this.parseInput(input);
 
-        System.out.println("--- Day 1, Challenge 2 ---");
         for (final int first : ints) {
             for (final int second : ints) {
                 for (final int third : ints) {

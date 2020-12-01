@@ -12,7 +12,6 @@ public class ChallengeOne implements Challenge {
     public void solve(final String input) {
         final List<Integer> ints = this.parseInput(input);
 
-        System.out.println("--- Day 1, Challenge 1 ---");
         for (final int first : ints) {
             for (final int second : ints) {
                 if (first + second != 2020) {

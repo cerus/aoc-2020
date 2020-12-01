@@ -1,5 +1,6 @@
 package de.cerus.aoc2020;
 
+import de.cerus.aoc2020.first.Day1;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,21 +11,18 @@ public class Launcher {
     public static void main(final String[] args) {
         System.out.println("Hello there!");
 
-        final String inputDay1 = getInput(1, 1);
-        new de.cerus.aoc2020.first.ChallengeOne().solve(inputDay1);
-        new de.cerus.aoc2020.first.ChallengeTwo().solve(inputDay1);
+        new Day1().solveChallenges(getInput(1));
     }
 
     /**
-     * Get input for the specified challenge and the specified day
+     * Get input for the specified day
      *
-     * @param day       The day
-     * @param challenge The challenge
+     * @param day The day
      *
      * @return The input
      */
-    private static String getInput(final int day, final int challenge) {
-        final InputStream inputStream = Launcher.class.getResourceAsStream(String.format("/input-day%d-%d.txt", day, challenge));
+    private static String getInput(final int day) {
+        final InputStream inputStream = Launcher.class.getResourceAsStream(String.format("/input-day%d.txt", day));
         if (inputStream == null) {
             return null;
         }
