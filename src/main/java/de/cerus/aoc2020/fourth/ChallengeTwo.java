@@ -47,6 +47,9 @@ public class ChallengeTwo implements Challenge {
         static Passport parse(final String str) {
             final Passport passport = new Passport();
 
+            // I could have solved this in a more abstract way but this is enough and it works
+            // so why should I transform this into some ultra high quality enterprise code?
+
             for (final String s : str.split("[\n ]")) {
                 switch (s.substring(0, 4)) {
                     case "byr:":
