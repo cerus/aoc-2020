@@ -1,6 +1,7 @@
 package de.cerus.aoc2020;
 
 import de.cerus.aoc2020.first.Day1;
+import de.cerus.aoc2020.fourth.Day4;
 import de.cerus.aoc2020.second.Day2;
 import de.cerus.aoc2020.third.Day3;
 import java.io.BufferedReader;
@@ -16,6 +17,7 @@ public class Launcher {
         new Day1().solveChallenges(getInput(1));
         new Day2().solveChallenges(getInput(2));
         new Day3().solveChallenges(getInput(3));
+        new Day4().solveChallenges(getInput(4));
     }
 
     /**
