@@ -1,6 +1,6 @@
 target/
 out/
 run/
-idea/
+.idea/
 *.iml
 dependency-reduced-pom.xml
