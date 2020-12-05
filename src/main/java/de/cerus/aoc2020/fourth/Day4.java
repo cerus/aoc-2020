@@ -10,7 +10,7 @@ public class Day4 implements Day {
 
     @Override
     public void solveChallenges(final String input) {
-        System.out.println("=== Day 3 ===");
+        System.out.println("=== Day 4 ===");
 
         System.out.println("--- Challenge 1 ---");
         this.firstChallenge.solve(input);
