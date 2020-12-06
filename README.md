@@ -6,3 +6,4 @@ Solutions for the Advent Of Code 2020
 - [Day 3](https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/third)
 - [Day 4](https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/fourth)
 - [Day 5](https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/fifth)
+- [Day 6](https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/sixth)
