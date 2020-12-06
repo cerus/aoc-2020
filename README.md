@@ -1,7 +1,7 @@
 # aoc-2020
 Solutions for the Advent Of Code 2020
 
-<table align="center">
+<table>
     <tr>
         <td align="center"><a href="https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/first">1</a></td>
         <td align="center"><a href="https://github.com/cerus/aoc-2020/tree/master/src/main/java/de/cerus/aoc2020/second">2</a></td>
